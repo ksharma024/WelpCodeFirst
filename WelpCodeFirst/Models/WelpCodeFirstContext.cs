@@ -9,6 +9,7 @@ namespace WelpCodeFirst.Models
 {
     public class WelpCodeFirstContext : DbContext
     {
+
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Business> Businesses { get; set; }

@@ -15,7 +15,7 @@ namespace WelpCodeFirst
     {
         protected void Application_Start()
         {
-            Database.SetInitializer<WelpCodeFirstContext>(new WelpCodeFirstInitializer());
+            Database.SetInitializer (new WelpCodeFirstInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
